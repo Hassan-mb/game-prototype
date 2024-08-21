@@ -8,9 +8,6 @@ export const Clicker = ({ click, setClick }) => {
     setClick(click + 1);
     console.log("increase clicks", click);
   };
-  const MilkCounter = () => {
-    <h1>{click}</h1>;
-  };
   return (
     <div>
       <div className="counter">

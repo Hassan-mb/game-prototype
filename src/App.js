@@ -2,11 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./Assets/CSS/main.css";
 import Clicker from "./Components/Clicker";
-import { click } from "@testing-library/user-event/dist/click";
 import { useState } from "react";
 
 function App() {
   const [click, setClick] = useState(0);
+  const [milk, setMilk] = useState(0);
+
   return (
     <div className="container">
       <div>
