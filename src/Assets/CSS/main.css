@@ -1,23 +1,27 @@
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
   width: 150px;
   position: absolute;
+  flex-wrap: wrap;
 }
 
 .headerCounter {
   position: absolute;
-  left: 900px;
+  left: 1350px;
   top: 100px;
   width: 50px;
+  flex-wrap: wrap;
 }
 
 .milkCounter {
   position: absolute;
-  left: 950px;
+  left: 1400px;
   top: 90px;
+  flex-wrap: wrap;
 }
 
 .counter {

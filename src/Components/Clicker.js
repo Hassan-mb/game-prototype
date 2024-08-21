@@ -2,12 +2,15 @@ import React from "react";
 import { useState } from "react";
 import "../Assets/CSS/main.css";
 
-export const Clicker = ({ click, setClick }) => {
+export const Clicker = ({ click, setClick, setMilk, milk }) => {
   //   const [click, setClick] = useState(0);
   const updateClick = () => {
     setClick(click + 1);
+    setMilk(milk + 1);
     console.log("increase clicks", click);
+    console.log("increase milk", milk);
   };
+
   return (
     <div>
       <div className="counter">

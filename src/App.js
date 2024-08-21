@@ -21,9 +21,14 @@ function App() {
           src="https://cdn-icons-png.flaticon.com/512/112/112431.png"
           alt="milk icon"
         />
-        <h1 className="milkCounter">x {click} </h1>
+        <h1 className="milkCounter">x {milk} </h1>
       </div>
-      <Clicker click={click} setClick={setClick} />
+      <Clicker
+        click={click}
+        setClick={setClick}
+        milk={milk}
+        setMilk={setMilk}
+      />
     </div>
   );
 }
