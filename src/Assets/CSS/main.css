@@ -3,6 +3,10 @@
   flex-wrap: wrap;
 }
 
+.background {
+  background-image: url(https://i.imgur.com/V8KJquA.jpeg);
+}
+
 .logo {
   width: 150px;
   position: absolute;
@@ -10,18 +14,44 @@
 }
 
 .headerCounter {
-  position: absolute;
-  left: 1350px;
-  top: 100px;
   width: 50px;
   flex-wrap: wrap;
 }
 
 .milkCounter {
-  position: absolute;
-  left: 1400px;
-  top: 90px;
   flex-wrap: wrap;
+}
+
+.milkContainer {
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.buttonsContainer {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  width: 100vw;
+  justify-content: center;
+}
+
+.upgradeButtons {
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: transparent;
+  margin: 10px;
+  color: white;
+}
+.cookieButton {
+  background-color: transparent;
+  border: 0px;
+}
+
+.imgSize {
+  width: 300px;
 }
 
 .counter {
@@ -31,4 +61,22 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.counter p {
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+.counter h3 {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+.counter h1 {
+  font-size: 100px;
+  margin: 0;
+  color: white;
 }
